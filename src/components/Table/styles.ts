@@ -52,7 +52,7 @@ export const Container = styled.section`
 
           td {
             display: block;
-            color: rgba(54, 63, 95, 0.8);
+            color: #000;
             font-size: 16px;
 
             &:first-child {

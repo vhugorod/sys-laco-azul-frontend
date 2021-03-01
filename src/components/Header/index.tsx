@@ -18,7 +18,7 @@ const Header: React.FC<HeaderProps> = ({ size = 'large' }: HeaderProps) => {
   return (
     <Container size={size} showNav={showNav}>
       <header>
-        <img src={Logo} alt="GoFinances" />
+        <img src={Logo} width={180} alt="Laço Azul" />
         <button onClick={() => setShowNav(!showNav)} type="button">
           {showNav ? <FiX size={32} /> : <FiMenu size={32} />}
         </button>

@@ -82,7 +82,7 @@ const Insert: React.FC = () => {
     <>
       <Header size="small" />
       <Container>
-        <h1>Cadastrar funcionário</h1>
+        <h1>Cadastrar paciente</h1>
         <Form
           ref={formRef}
           onSubmit={handleSubmit}

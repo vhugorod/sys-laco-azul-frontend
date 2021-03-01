@@ -55,7 +55,7 @@ const Delete: React.FC = () => {
     } catch (err) {
       setIErrors({
         show: true,
-        messages: ['Funcionário não localizado no sistema.'],
+        messages: ['Paciente não localizado no sistema.'],
       });
     }
   }, [iCPF, confirm]);
@@ -70,7 +70,7 @@ const Delete: React.FC = () => {
             <FiAlertCircle />
             <span>Atenção!</span>
           </h1>
-          <p>Realmente deseja remover o funcionário?</p>
+          <p>Realmente deseja remover o paciente?</p>
           <p>{`CPF: ${employee.CPF}`}</p>
           <p>{`Nome: ${employee.name}`}</p>
           <p>{`Cargo: ${employee.position}`}</p>
@@ -103,7 +103,7 @@ const Delete: React.FC = () => {
       </Confirm>
 
       <Container>
-        <h1>Remover funcionário</h1>
+        <h1>Remover paciente</h1>
 
         <form>
           <fieldset>

@@ -25,7 +25,7 @@ const disappear = keyframes`
 `;
 
 export const Container = styled.div<ContainerProps>`
-  background: #10bb77;
+  background: #6AB3E6;
   padding: 30px 0;
 
   header {
@@ -106,13 +106,13 @@ export const MenuOption = styled(Link)<IMenuOptionProps>`
     }
 
     svg {
-      color: #1edf92;
+      color: #6AB3E6;
     }
 
     ${props =>
       props.to === props.url &&
       css`
-        background: #1edf92;
+        background: #6AB3E6;
         color: #fff;
 
         svg {

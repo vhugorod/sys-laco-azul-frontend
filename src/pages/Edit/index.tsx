@@ -102,7 +102,7 @@ const Edit: React.FC<IIEditData> = ({ location }) => {
     <>
       <Header size="small" />
       <Container>
-        <h1>Editar funcionário</h1>
+        <h1>Editar paciente</h1>
         <Form
           ref={formRef}
           onSubmit={handleSubmit}

@@ -58,7 +58,7 @@ const Dashboard: React.FC = () => {
         <CardContainer>
           <Card>
             <header>
-              <p>Total de funcionários</p>
+              <p>Total de pacientes</p>
               <FiUsers size={32} color="#1B5299" />
             </header>
 
@@ -73,7 +73,7 @@ const Dashboard: React.FC = () => {
 
           <Card>
             <header>
-              <p>Funcionários ativos</p>
+              <p>Pacientes ativos</p>
               <FiUserCheck size={32} color="#12A454" />
             </header>
             <strong>
@@ -87,7 +87,7 @@ const Dashboard: React.FC = () => {
 
           <Card>
             <header>
-              <p>Funcionários bloqueados</p>
+              <p>Pacientes inativos</p>
               <FiUserX size={32} color="#E83F5B" />
             </header>
             <strong>
@@ -114,7 +114,7 @@ const Dashboard: React.FC = () => {
             titles={['Nome', 'Cargo', 'CPF', 'UF', 'Salário', 'Status', 'Data']}
           />
         ) : (
-          <h1>Nenhum funcionário cadastrado.</h1>
+          <h1>Nenhum paciente cadastrado.</h1>
         )}
       </Container>
     </>
